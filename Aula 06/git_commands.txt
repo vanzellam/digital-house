@@ -1,0 +1,7 @@
+git clone -> copia a pasta
+git add . -> adiciona os arquivos
+git status -> para ver se tem alguma alteração que precisa de push ou commit
+git commit -m -> dá o commit e abre caixa de mensagem para descrever o que foi
+  feito
+git push origin master -> salvar no repositório
+git pull origin master -> quando outro usuário fizer o commit
