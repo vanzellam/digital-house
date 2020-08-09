@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Click com JQuery</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="jquery-2.2.1.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(".campo1").keydown(function () {
+                alert("Tecla pressionada");
+            });
+        });
+
+        /*
+        keydown
+        keypress
+        keyup
+        */
+
+    </script>
+
+</head>
+
+<body>
+    <input class="campo1" type='text'></input>
+</body>
+
+</html>
