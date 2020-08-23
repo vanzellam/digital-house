@@ -1,38 +1,6 @@
-a{
-    text-decoration: none;
+body{
+    background-color: gray;
+    font-family: sans-serif;
+    text-align: center;
 }
 
-a:hover{
-    text-decoration: underline;
-}
-
-
-.example{
-    color: #fff;
-
-}
-
-.example-item {
-    width: 25%;
-    height: 150px;
-    display: inline-block;
-}
-
-.example-item_first{
-    border: solid 2px red;
-    background-color: orange;
-    margin: 10px;
-
-}
-
-.example-item_second{
-    background-color: rgb(7, 152, 248);
-    margin-left: auto;
-
-
-}
-
-.example-item_third{
-    background-color: rgb(5, 201, 168);
-
-}

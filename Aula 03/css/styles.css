@@ -1,53 +1,38 @@
-div, p {
-    background-color: blue;
+a{
+    text-decoration: none;
 }
 
-/* classe - usada quando vai utilizar mais vezes */
-.fundoverde {
-    background-color: greenyellow;
-}
-
-/* id - usada para elementos que não se repetem */
-#div4 {
-    background-color: greenyellow;
+a:hover{
+    text-decoration: underline;
 }
 
 
-div>div{
-    background-color: indianred;
+.example{
+    color: #fff;
+
 }
 
-div.fundocinza{
-    background-color: grey;
+.example-item {
+    width: 25%;
+    height: 150px;
+    display: inline-block;
 }
 
-/* position
-    absolute: depende da posição do pai
-    realative: independe
-    fixed: fixo na página
-*/
+.example-item_first{
+    border: solid 2px red;
+    background-color: orange;
+    margin: 10px;
 
-
-
-
-.verde{
-    width: 300px;
-    height: 300px;
-    background-color: green;
-    border: 10px solid darkgreen;
-    position: absolute; 
-    bottom: 0px;
-    right: 0;
-    z-index: 0;
 }
 
-.azul{
-    width: 120px;
-    height: 120px;
-    background-color: blue;
-    border: 10px solid darkblue;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 0;
+.example-item_second{
+    background-color: rgb(7, 152, 248);
+    margin-left: auto;
+
+
+}
+
+.example-item_third{
+    background-color: rgb(5, 201, 168);
+
 }

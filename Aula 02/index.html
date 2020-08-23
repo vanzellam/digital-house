@@ -1,76 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link href="css/styles.css" rel="stylesheet">
-    <title>Aula 02</title>
+    
+    <!--precedência superior ao href-->
+    <style> 
+        body {
+            background-color: green;
+            font-family: sans-serif;
+            text-align: center;
+        }       
+    </style>
+
+    <title>Document</title>
+
 </head>
-<body>
-    <header>
+<body style="background-color: blueviolet;">
 
-    </header>
+    <h1> Título principal</h1>
+    <h2> Subtítulo </h2>
+    <h3> Outro subtítulo </h3>
+    <h4> Mais um </h4>
+    <h5> Outro, por que não? </h5>
+    <h6> Agora sim, o último </h6>
 
-    <!-- tags semânticas para SEO do Google -->
-    <em> Texto enfatizado </em> <i></i>
-    <mark> Realce com fundo amarelo </mark>
-    <cite> Citação </cite>
-    <abbr title="World Wide Web Consortium"> W3C(Abreviação) </abbr>
-    <!-- mais usadas em wordpress/blogs/etc -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Aliquam efficitur enim at risus consectetur aliquet. 
+        Aenean a arcu id sapien auctor lobortis ut nec urna. 
+        Quisque fringilla pellentesque commodo. Suspendisse urna 
+        lectus, consectetur eget facilisis quis, blandit elementum 
+        turpis. Morbi aliquam lacinia augue, ac pretium felis 
+        malesuada feugiat. Phasellus cursus purus non felis venenatis,
+        in auctor ex bibendum. Suspendisse congue dui erat, eget 
+        dapibus lacus ullamcorper a. Vivamus aliquam, tortor sed 
+        congue mattis, enim enim iaculis purus, ac commodo lectus 
+        arcu eu risus. Pellentesque ultrices nulla vitae placerat 
+        porta. Proin rutrum ex in felis placerat efficitur.
+    </p>
+    <p>
+        Vestibulum pretium ex ante, sed maximus mi convallis ac. 
+        Nunc pellentesque luctus vestibulum. In hac habitasse platea
+        dictumst. Quisque consequat lorem et euismod efficitur. 
+        Proin ante augue, condimentum eget molestie eu, accumsan 
+        eget eros. Suspendisse vestibulum lacus in ultrices rhoncus. 
+        Fusce rutrum consequat sapien tincidunt euismod. Aliquam leo 
+        ex, faucibus ultricies vestibulum in, lacinia a mauris. 
+        Aliquam sagittis faucibus eros, vel eleifend mi dictum eget.
+        Fusce pharetra sit amet lacus malesuada viverra. Vivamus in 
+        magna eu mi vulputate lacinia ut in nibh. Maecenas a lobortis
+        justo, quis dignissim nulla.
+    </p>
 
-    <!-- action: quem vai processar os dados -->
-    <form action="" method="POST">
-        <input type="text" name="usuario" value="" required/>
+    <!--lista ordenada (por padrão, numerada)-->
+    <ol type="I"><!--type= 1, A, a, I, i start=10-->
+        <li>Item da lista</li>
+        <li>Item da lista</li>
+        <li>Item da lista</li>
+    </ol>
 
-        <input type="radio" name="estado_civil" value="Solteiro"/>
-        <input type="radio" name="estado_civil" value="Casado" />
+    <!--lista não ordenada-->
+    <ul type="square"><!--type= disc, circle, square start=10-->
+        <li>Item da lista</li>
+        <li>Item da lista</li>
+        <li>Item da lista</li>
+    </ul>
 
-        <input type="checkbox" name="hobbies" value="Surf" />
-        <input type="checkbox" name="hobbies" value="Música" />
-        
-        <br><br>
-        <label for="email"> email </label>
-        <br>
-        <input type="email" name="email" id="email" placeholder="user@email.com" />
-
-        <br><br>
-        <select name="país">
-            <option value="Ar">Argentina</option>
-            <option value="Br">Brasil</option>
-            <option value="Co">Colômbia</option>
-        </select>
-
-        <br><br>
-        <select name="país">
-            <optgroup label="América do Sul"></optgroup>
-                <option value="Ar">Argentina</option>
-                <option value="Br">Brasil</option>
-                <option value="Co">Colômbia</option>
-            </optgroup>
-            <optgroup label="América do Norte"></optgroup>
-                <option value="US">Estados Unidos</option>
-                <option value="Can">Canada</option>
-                <option value="Mex">México</option>
-            </optgroup>
-        </select>
-
-        
-        <br><br>
-        <button type="submit">Enviar</button>
-        <button type="reset"> Excluir</button>
-        <button type="button"> Outra ação</button>
-
-
-
-        <br><br>
-        <a href="">Meu link</a>
-
-    </form>
-
-    <footer>
-
-        
-    </footer>
+    <!--lista alinhada-->
+    <ul>
+        <li>
+            Item da lista com lista aninhada
+            <ol>
+                <li>Item da lista aninhada</li>
+                <li>Item da lista aninhada</li>
+            </ol>
+        </li>
+        <li>Item da lista</li>
+        <li>Item da lista</li>
+    </ul>
 
 </body>
 </html>

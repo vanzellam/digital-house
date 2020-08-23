@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Aula 02</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <!-- tags semânticas para SEO do Google -->
+    <em> Texto enfatizado </em> <i></i>
+    <mark> Realce com fundo amarelo </mark>
+    <cite> Citação </cite>
+    <abbr title="World Wide Web Consortium"> W3C(Abreviação) </abbr>
+    <!-- mais usadas em wordpress/blogs/etc -->
+
+    <!-- action: quem vai processar os dados -->
+    <form action="" method="POST">
+        <input type="text" name="usuario" value="" required/>
+
+        <input type="radio" name="estado_civil" value="Solteiro"/>
+        <input type="radio" name="estado_civil" value="Casado" />
+
+        <input type="checkbox" name="hobbies" value="Surf" />
+        <input type="checkbox" name="hobbies" value="Música" />
+        
+        <br><br>
+        <label for="email"> email </label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="user@email.com" />
+
+        <br><br>
+        <select name="país">
+            <option value="Ar">Argentina</option>
+            <option value="Br">Brasil</option>
+            <option value="Co">Colômbia</option>
+        </select>
+
+        <br><br>
+        <select name="país">
+            <optgroup label="América do Sul"></optgroup>
+                <option value="Ar">Argentina</option>
+                <option value="Br">Brasil</option>
+                <option value="Co">Colômbia</option>
+            </optgroup>
+            <optgroup label="América do Norte"></optgroup>
+                <option value="US">Estados Unidos</option>
+                <option value="Can">Canada</option>
+                <option value="Mex">México</option>
+            </optgroup>
+        </select>
+
+        
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset"> Excluir</button>
+        <button type="button"> Outra ação</button>
+
+
+
+        <br><br>
+        <a href="">Meu link</a>
+
+    </form>
+
+    <footer>
+
+        
+    </footer>
+
+</body>
+</html>
