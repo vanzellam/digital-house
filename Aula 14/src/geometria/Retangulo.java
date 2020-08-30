@@ -10,13 +10,13 @@ public class Retangulo {
 	}
 	
 	public double Perimetro() {
-		double perim = 2 * (largura + altura);
-		return perim;
+		double perimetro = 2 * (largura + altura);
+		return perimetro;
 	}
 	
 	public double Diagonal() {
-		double diag = Math.sqrt(altura * altura + largura * largura);
-		return diag;
+		double diagonal = Math.sqrt(Math.pow(altura, 2) + Math.pow(largura, 2));
+		return diagonal;
 	}
 	
 	
